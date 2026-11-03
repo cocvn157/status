@@ -12,11 +12,7 @@
 | `compile_api` | ✅ Operational |
 | `svg_service` | ✅ Operational |
 | `browser_preview` | ✅ Operational |
-| `tscircuit_package` | ❌ tscircuit package health check failed: Command failed: tscircuit init -y
-Resolving dependencies
-Resolved, downloaded and extracted [8]
-Saved lockfile
- |
+| `tscircuit_package` | ✅ Operational |
 | `usercode_api` | ✅ Operational |
 
 <!-- END_STATUS_TABLE -->
