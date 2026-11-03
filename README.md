@@ -10,87 +10,10 @@
 | `registry_bundling` | ✅ Operational |
 | `fly_registry_api` | ✅ Operational |
 | `compile_api` | ✅ Operational |
-| `svg_service` | ❌ SVG Service Health Check Failed: pcb render failed after 15001ms: Request timed out: GET https://svg.tscircuit.com/?svg_type=pcb&code=H4sIAJsBqGcAA42QsQ6CMBRFdxP%2F4aUTDEJBNikLiR%2FA5FpKkUahTanRxPjvVksb4uTWc3JfTlL%2BUFIb6HhPb1cDUQykgmi7AShbSXUHd9GZgaAMjyOCgYvzYBaqPiu703wWs5HaIYBjOjFOUH5BXvdSGqXFZM9xgfPgJzraYZMFMbPhRJ7Fy7NireX9wqnPMqooE6vuIly4wBir45%2Fx%2Bje%2B8zVfDyLkjaaMQ6%2FlSFDSZFBBosSUITDSinol3EmZfv%2FTvuPDG02y%2Bwx1AQAA&cachebust=a2p0i |
+| `svg_service` | ✅ Operational |
 | `browser_preview` | ✅ Operational |
-| `tscircuit_package` | ❌ tscircuit package health check failed: Command failed: npm install -g tscircuit --force
-npm warn using --force Recommended protections disabled.
-npm warn ERESOLVE overriding peer dependency
-npm warn While resolving: react-reconciler@0.34.0
-npm warn Found: react@19.1.0
-npm warn node_modules/tscircuit/node_modules/react
-npm warn   react@"^19.1.0" from tscircuit@0.0.3066
-npm warn   node_modules/tscircuit
-npm warn     tscircuit@"*" from the root project
-npm warn     2 more (@tscircuit/cli, @tscircuit/krt-wasm)
-npm warn   11 more (@tscircuit/props, jscad-fiber, react-dom, ...)
-npm warn
-npm warn Could not resolve dependency:
-npm warn peer react@"^19.3.0" from react-reconciler@0.34.0
-npm warn node_modules/tscircuit/node_modules/react-reconciler
-npm warn   peer react-reconciler@"*" from jscad-fiber@0.0.93
-npm warn   node_modules/tscircuit/node_modules/jscad-fiber
-npm warn
-npm warn Conflicting peer dependency: react@19.3.1
-npm warn node_modules/react
-npm warn   peer react@"^19.3.0" from react-reconciler@0.34.0
-npm warn   node_modules/tscircuit/node_modules/react-reconciler
-npm warn     peer react-reconciler@"*" from jscad-fiber@0.0.93
-npm warn     node_modules/tscircuit/node_modules/jscad-fiber
-npm warn ERESOLVE overriding peer dependency
-npm warn While resolving: jscad-electronics@0.0.243
-npm warn Found: @tscircuit/alphabet@0.0.25
-npm warn node_modules/tscircuit/node_modules/@tscircuit/alphabet
-npm warn   @tscircuit/alphabet@"0.0.25" from tscircuit@0.0.3066
-npm warn   node_modules/tscircuit
-npm warn     tscircuit@"*" from the root project
-npm warn     2 more (@tscircuit/cli, @tscircuit/krt-wasm)
-npm warn   5 more (graphics-debug, circuit-json-to-gltf, circuit-to-svg, ...)
-npm warn
-npm warn Could not resolve dependency:
-npm warn peer @tscircuit/alphabet@"^0.0.24" from jscad-electronics@0.0.243
-npm warn node_modules/tscircuit/node_modules/circuit-json-to-gltf/node_modules/jscad-electronics
-npm warn   jscad-electronics@"^0.0.243" from circuit-json-to-gltf@0.0.164
-npm warn   node_modules/tscircuit/node_modules/circuit-json-to-gltf
-npm warn
-npm warn Conflicting peer dependency: @tscircuit/alphabet@0.0.24
-npm warn node_modules/@tscircuit/alphabet
-npm warn   peer @tscircuit/alphabet@"^0.0.24" from jscad-electronics@0.0.243
-npm warn   node_modules/tscircuit/node_modules/circuit-json-to-gltf/node_modules/jscad-electronics
-npm warn     jscad-electronics@"^0.0.243" from circuit-json-to-gltf@0.0.164
-npm warn     node_modules/tscircuit/node_modules/circuit-json-to-gltf
-npm warn ERESOLVE overriding peer dependency
-npm warn While resolving: jscad-electronics@0.0.243
-npm warn Found: circuit-json@0.0.542
-npm warn node_modules/tscircuit/node_modules/circuit-json
-npm warn   circuit-json@"^0.0.542" from tscircuit@0.0.3066
-npm warn   node_modules/tscircuit
-npm warn     tscircuit@"*" from the root project
-npm warn     2 more (@tscircuit/cli, @tscircuit/krt-wasm)
-npm warn   15 more (@tscircuit/checks, @tscircuit/circuit-json-util, ...)
-npm warn
-npm warn Could not resolve dependency:
-npm warn peer circuit-json@"^0.0.426" from jscad-electronics@0.0.243
-npm warn node_modules/tscircuit/node_modules/circuit-json-to-gltf/node_modules/jscad-electronics
-npm warn   jscad-electronics@"^0.0.243" from circuit-json-to-gltf@0.0.164
-npm warn   node_modules/tscircuit/node_modules/circuit-json-to-gltf
-npm warn
-npm warn Conflicting peer dependency: circuit-json@0.0.426
-npm warn node_modules/circuit-json
-npm warn   peer circuit-json@"^0.0.426" from jscad-electronics@0.0.243
-npm warn   node_modules/tscircuit/node_modules/circuit-json-to-gltf/node_modules/jscad-electronics
-npm warn     jscad-electronics@"^0.0.243" from circuit-json-to-gltf@0.0.164
-npm warn     node_modules/tscircuit/node_modules/circuit-json-to-gltf
-npm warn deprecated prebuild-install@7.1.3: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.
-npm error code E404
-npm error 404 Not Found - GET https://registry.npmjs.org/tscircuit/-/tscircuit-0.0.3066.tgz - Not found
-npm error 404
-npm error 404  The requested resource 'tscircuit@https://registry.npmjs.org/tscircuit/-/tscircuit-0.0.3066.tgz' could not be found or you do not have permission to access it.
-npm error 404
-npm error 404 Note that you can also install from a
-npm error 404 tarball, folder, http url, or git url.
-npm error A complete log of this run can be found in: /home/runner/.npm/_logs/2026-11-03T22_43_16_690Z-debug-0.log
- |
-| `usercode_api` | ❌ Usercode job failed: Unknown error |
+| `tscircuit_package` | ✅ Operational |
+| `usercode_api` | ✅ Operational |
 
 <!-- END_STATUS_TABLE -->
 
