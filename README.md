@@ -7,11 +7,11 @@
 | `registry-api` | ✅ Operational |
 | `freerouting-cluster` | ✅ Operational |
 | `jlcsearch-api` | ✅ Operational |
-| `registry_bundling` | ✅ Operational |
+| `registry_bundling` | ❌ registry_bundling Health Check Failed |
 | `fly_registry_api` | ✅ Operational |
-| `compile_api` | ✅ Operational |
+| `compile_api` | ❌ Compile API Health Ping Failed |
 | `svg_service` | ✅ Operational |
-| `browser_preview` | ✅ Operational |
+| `browser_preview` | ❌ Browser Preview Health Check Failed |
 | `tscircuit_package` | ✅ Operational |
 | `usercode_api` | ✅ Operational |
 
