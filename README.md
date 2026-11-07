@@ -18,7 +18,7 @@ npm warn ERESOLVE overriding peer dependency
 npm warn While resolving: react-reconciler@0.34.0
 npm warn Found: react@19.1.0
 npm warn node_modules/tscircuit/node_modules/react
-npm warn   react@"^19.1.0" from tscircuit@0.0.3116
+npm warn   react@"^19.1.0" from tscircuit@0.0.3117
 npm warn   node_modules/tscircuit
 npm warn     tscircuit@"*" from the root project
 npm warn     2 more (@tscircuit/cli, @tscircuit/krt-wasm)
@@ -40,7 +40,7 @@ npm warn ERESOLVE overriding peer dependency
 npm warn While resolving: jscad-electronics@0.0.243
 npm warn Found: @tscircuit/alphabet@0.0.25
 npm warn node_modules/tscircuit/node_modules/@tscircuit/alphabet
-npm warn   @tscircuit/alphabet@"0.0.25" from tscircuit@0.0.3116
+npm warn   @tscircuit/alphabet@"0.0.25" from tscircuit@0.0.3117
 npm warn   node_modules/tscircuit
 npm warn     tscircuit@"*" from the root project
 npm warn     2 more (@tscircuit/cli, @tscircuit/krt-wasm)
@@ -62,7 +62,7 @@ npm warn ERESOLVE overriding peer dependency
 npm warn While resolving: jscad-electronics@0.0.243
 npm warn Found: circuit-json@0.0.547
 npm warn node_modules/tscircuit/node_modules/circuit-json
-npm warn   circuit-json@"^0.0.547" from tscircuit@0.0.3116
+npm warn   circuit-json@"^0.0.547" from tscircuit@0.0.3117
 npm warn   node_modules/tscircuit
 npm warn     tscircuit@"*" from the root project
 npm warn     2 more (@tscircuit/cli, @tscircuit/krt-wasm)
@@ -82,15 +82,15 @@ npm warn     jscad-electronics@"^0.0.243" from circuit-json-to-gltf@0.0.164
 npm warn     node_modules/tscircuit/node_modules/circuit-json-to-gltf
 npm warn deprecated prebuild-install@7.1.3: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.
 npm error code E404
-npm error 404 Not Found - GET https://registry.npmjs.org/@tscircuit/cli/-/cli-0.1.2445.tgz - Not found
+npm error 404 Not Found - GET https://registry.npmjs.org/tscircuit/-/tscircuit-0.0.3117.tgz - Not found
 npm error 404
-npm error 404  The requested resource '@tscircuit/cli@https://registry.npmjs.org/@tscircuit/cli/-/cli-0.1.2445.tgz' could not be found or you do not have permission to access it.
+npm error 404  The requested resource 'tscircuit@https://registry.npmjs.org/tscircuit/-/tscircuit-0.0.3117.tgz' could not be found or you do not have permission to access it.
 npm error 404
 npm error 404 Note that you can also install from a
 npm error 404 tarball, folder, http url, or git url.
-npm error A complete log of this run can be found in: /home/runner/.npm/_logs/2026-11-07T22_52_54_216Z-debug-0.log
+npm error A complete log of this run can be found in: /home/runner/.npm/_logs/2026-11-07T23_02_16_648Z-debug-0.log
  |
-| `usercode_api` | ✅ Operational |
+| `usercode_api` | ❌ Usercode job failed: Unknown error |
 
 <!-- END_STATUS_TABLE -->
 
