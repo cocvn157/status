@@ -88,7 +88,7 @@ npm error command sh -c (node install/libvips && node install/dll-copy && prebui
 npm error sharp: Downloading https://github.com/lovell/sharp-libvips/releases/download/v8.14.5/libvips-8.14.5-linux-x64.tar.br
 npm error sharp: Please see https://sharp.pixelplumbing.com/install for required dependencies
 npm error sharp: Installation error: Status 504 Gateway Time-out
-npm error A complete log of this run can be found in: /home/runner/.npm/_logs/2026-11-08T09_43_19_959Z-debug-0.log
+npm error A complete log of this run can be found in: /home/runner/.npm/_logs/2026-11-08T09_52_50_444Z-debug-0.log
  |
 | `usercode_api` | ✅ Operational |
 
